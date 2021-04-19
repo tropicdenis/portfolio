@@ -2,3 +2,13 @@
     height: 100vh;
     background-color: rgba(255, 20, 224, 0.26);
 }
+
+.text {
+    width: 300px;
+    background-color: azure;
+}
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: azure;
+}
