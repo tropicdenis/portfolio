@@ -11,6 +11,10 @@
     background-color: rgba(238, 179, 211, 0.97);
 }
 .skills {
-    border: 1px solid
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
