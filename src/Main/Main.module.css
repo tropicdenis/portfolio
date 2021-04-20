@@ -1,14 +1,23 @@
 .mainBlock {
     height: 100vh;
-    background-color: rgba(255, 20, 224, 0.26);
+    background-image: url('fon.gif');
+    background-size: cover;
+    padding:0;
+    margin:0;
 }
+
 
 .text {
     width: 300px;
-    background-color: azure;
+    background-color: transparent;
+    color: white;
+    text-shadow: 5px 5px 5px black;
 }
 .photo {
     width: 300px;
     height: 400px;
-    background-color: azure;
+    background-color: transparent;
+}
+.photo img{
+    height: 400px;
 }

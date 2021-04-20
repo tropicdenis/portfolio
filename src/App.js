@@ -3,6 +3,8 @@ import './App.css';
 import Header from "./header/Header";
 import Main from "./Main/Main";
 import Skills from "./skils/Skills";
+import MyWorks from "./my_works/MyWorks";
+import Footer from "./footer/Footer";
 
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <Header />
       <Main />
       <Skills />
+      <MyWorks />
+      <Footer />
     </div>
   );
 }

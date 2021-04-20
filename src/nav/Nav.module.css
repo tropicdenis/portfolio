@@ -1,7 +1,24 @@
 .nav {
-border: 1px solid red;
     width: 300px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    color: white;
+    display: flex;
+    font-weight: 500;
 }
+.nav a{
+    display: block;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
+.nav a:active{
+    color: white;
+}
+.nav a:hover{
+    color: red!important;
+}
+.nav a:visited{
+    color: white;
+}
+

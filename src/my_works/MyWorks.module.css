@@ -1,16 +1,17 @@
-.skillsBlock {
+.myWorksBlock {
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.92);
+    background-color: #ccea9d;
 }
-.skillsContainer {
+.myWorksContainer {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
 }
 .title{
-    color: white
+    background-color: rgba(238, 179, 211, 0.97);
 }
-.skills {
+.myWorks {
+    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
