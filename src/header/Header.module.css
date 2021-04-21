@@ -1,8 +1,13 @@
+.costyl{
+    background-color: white;
+    position: fixed;
+    width: 1280px;
+}
 .header {
+
     height: 80px;
-    background-color: rgba(0, 0, 0, 0.78);
+    background-color: rgba(97, 92, 7, 0.84);
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
 }

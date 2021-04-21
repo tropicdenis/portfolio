@@ -6,7 +6,7 @@ import profilePhoto from './gomer.png'
 
 function Main() {
     return (
-        <div className={style.mainBlock}>
+        <div id={'main'} className={style.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={style.text}>
                     <span>Hi, There</span>

@@ -1,6 +1,8 @@
 .myWorksBlock {
-    height: 100vh;
-    background-color: #ccea9d;
+    height: 50vh;
+    background-color: #615C07;
+    text-shadow: 5px 5px 5px black;
+    color: white;
 }
 .myWorksContainer {
     align-items: center;
@@ -8,10 +10,9 @@
     justify-content: flex-start;
 }
 .title{
-    background-color: rgba(238, 179, 211, 0.97);
+    background-color: #615C07;
 }
 .myWorks {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;

@@ -7,7 +7,7 @@
     color: white;
     box-shadow: 0 0 5px black;
     padding: 5px;
-
+    background-color: rgba(97, 92, 7, 1);
 }
 .icon img{
     width: 100%;

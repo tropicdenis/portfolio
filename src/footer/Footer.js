@@ -5,7 +5,7 @@ import styleContainer from "../common/styles/Container.module.css";
 
 function Footer() {
     return (
-        <div className={style.footerBlock}>
+        <div id={'footer'}className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <div className={style.footer}>
                     <h2>DENIS</h2>

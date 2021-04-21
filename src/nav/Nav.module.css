@@ -16,9 +16,11 @@
     color: white;
 }
 .nav a:hover{
-    color: red!important;
+    color: #954747 !important;
 }
 .nav a:visited{
     color: white;
 }
-
+.nav a:link{
+    color: white;
+}
