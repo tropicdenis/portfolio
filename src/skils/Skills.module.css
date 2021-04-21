@@ -1,5 +1,5 @@
 .skillsBlock {
-    height: 80vh;
+    min-height: 80vh;
     background-color: rgba(97, 92, 7, 0.84);
     text-shadow: 5px 5px 5px black;
 }

@@ -1,5 +1,5 @@
 .myWorksBlock {
-    height: 50vh;
+    min-height: 50vh;
     background-color: #615C07;
     text-shadow: 5px 5px 5px black;
     color: white;
