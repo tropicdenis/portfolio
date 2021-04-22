@@ -2,6 +2,7 @@
     min-height: 80vh;
     background-color: rgba(97, 92, 7, 0.84);
     text-shadow: 5px 5px 5px black;
+
 }
 .skillsContainer {
     align-items: center;
@@ -12,6 +13,7 @@
     color: white
 }
 .skills {
+
     width: 100%;
     display: flex;
     justify-content: space-between;
