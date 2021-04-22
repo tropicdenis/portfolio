@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5899dcb8.chunk.css",
+    "main.js": "/portfolio/static/js/main.7d54453d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7d54453d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.c090be08.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c090be08.js.map",
+    "static/js/2.da170fa8.chunk.js": "/portfolio/static/js/2.da170fa8.chunk.js",
+    "static/js/2.da170fa8.chunk.js.map": "/portfolio/static/js/2.da170fa8.chunk.js.map",
+    "static/js/3.0c114f8d.chunk.js": "/portfolio/static/js/3.0c114f8d.chunk.js",
+    "static/js/3.0c114f8d.chunk.js.map": "/portfolio/static/js/3.0c114f8d.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.5899dcb8.chunk.css.map": "/portfolio/static/css/main.5899dcb8.chunk.css.map",
+    "static/js/2.da170fa8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.da170fa8.chunk.js.LICENSE.txt",
+    "static/media/alcohol.cd213efe.png": "/portfolio/static/media/alcohol.cd213efe.png",
+    "static/media/flowers.5c0ed159.png": "/portfolio/static/media/flowers.5c0ed159.png",
+    "static/media/gomer.e282ad2e.png": "/portfolio/static/media/gomer.e282ad2e.png",
+    "static/media/пикап.48104490.jpg": "/portfolio/static/media/пикап.48104490.jpg",
+    "static/media/програмист.6da7a07f.jpg": "/portfolio/static/media/програмист.6da7a07f.jpg",
+    "static/media/пьянка.f1b8c4e4.jpg": "/portfolio/static/media/пьянка.f1b8c4e4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c090be08.js",
+    "static/js/2.da170fa8.chunk.js",
+    "static/css/main.5899dcb8.chunk.css",
+    "static/js/main.7d54453d.chunk.js"
+  ]
+}
