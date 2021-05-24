@@ -1,5 +1,4 @@
 .footerBlock {
-    height: 30vh;
     background-color: rgba(97, 92, 7, 0.84);
     text-shadow: 5px 5px 5px black;
     color: white;
@@ -18,13 +17,19 @@
     text-align: center;
     }
 
+.title h2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+}
 
 .links {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-
 }
 .links a{
     display: block;

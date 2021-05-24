@@ -1,6 +1,6 @@
 .myWorksBlock {
     min-height: 50vh;
-    background-color: #615C07;
+    background-color: #1f1f20;
     text-shadow: 5px 5px 5px black;
     color: white;
 }
@@ -10,12 +10,26 @@
     justify-content: flex-start;
 }
 .title{
-    background-color: #615C07;
+    background-color: #1f1f20;
 }
+
+.title h2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+}
+
 .myWorks {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+}
 
+@media screen and (min-width: 629px) {
+    .myWorks{
+        justify-content: space-between;
+    }
 }

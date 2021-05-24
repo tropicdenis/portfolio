@@ -9,13 +9,25 @@
     flex-direction: column;
     justify-content: flex-start;
 }
-.title{
-    color: white
+
+.title h2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
 }
+
 .skills {
 
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+}
+
+@media screen and (min-width: 773px) {
+    .skills{
+        justify-content: space-between;
+    }
 }

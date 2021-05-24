@@ -1,7 +1,7 @@
 import React from "react"
 import style from './Main.module.css';
 import styleContainer from '../common/styles/Container.module.css'
-import profilePhoto from './gomer.png'
+import profilePhoto from './myAvatar.jpg'
 
 
 function Main() {

@@ -10,7 +10,10 @@ function MyWorks() {
     return (
         <div id={'myWorks'}className={style.myWorksBlock}>
             <div className={`${styleContainer.container} ${style.myWorksContainer}`}>
-                <h2 className={style.title}>My Works</h2>
+                <div className={style.title}>
+                    <h2>My Works</h2>
+                </div>
+
                 <div className={style.myWorks}>
                     <WorkItem title={"Flowers Store"}
                               workIcon={flowerIcon}
