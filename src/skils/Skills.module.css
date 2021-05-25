@@ -1,6 +1,6 @@
 .skillsBlock {
     min-height: 80vh;
-    background-color: rgba(97, 92, 7, 0.84);
+    background-color: #252527;
     text-shadow: 5px 5px 5px black;
 
 }
@@ -10,20 +10,39 @@
     justify-content: flex-start;
 }
 
-.title h2{
+.title{
+    background-color: #252527;
+    margin: 0 0 30px;
     font-family: 'Josefin Sans', sans-serif;
-    margin-bottom: 30px;
     font-weight: 300;
     color: #fff;
     text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
+}
+
+.title h2{
+    margin: 0;
+}
+.title::before {
+    content: "";
+    position: absolute;
+    background: #4e93e6;
+    width: 55px;
+    height: 1px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 
 .skills {
-
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 @media screen and (min-width: 773px) {
