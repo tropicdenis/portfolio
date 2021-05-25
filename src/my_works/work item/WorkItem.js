@@ -5,7 +5,7 @@ function WorkItem(props) {
     return (
         <div className={style.workItem}>
 
-                <a href={"#main"}>
+                <a href={props.itemReference}>
                     <div className={style.image} style={props.style}> </div>
                 </a>
 

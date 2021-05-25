@@ -1,0 +1,64 @@
+@import "src/common/styles/sass/variables";
+
+.footerBlock {
+  background-color: $bgSecondColor;
+  text-shadow: 5px 5px 5px black;
+  color: $textColor;
+
+  .footerContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      .title h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        margin-bottom: 30px;
+        font-weight: 300;
+        color: $textColor;
+        text-transform: capitalize;
+      }
+
+      .links {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        & a {
+          display: block;
+          margin: 10px;
+        }
+
+        & a:active {
+          color: $textColor;
+        }
+
+        & a:hover {
+          color: #954747 !important;
+        }
+
+        & a:visited {
+          color: $textColor;
+        }
+
+        & a:link {
+          color: $textColor;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+

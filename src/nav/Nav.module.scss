@@ -1,0 +1,33 @@
+@import "src/common/styles/sass/variables";
+
+.nav {
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: $textColor;
+  font-weight: 500;
+
+  & a {
+    display: block;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+  }
+
+  & a:active {
+    color: $textColor;
+  }
+
+  & a:hover {
+    color: #954747 !important;
+  }
+
+  & a:visited {
+    color: $textColor;
+  }
+
+  & a:link {
+    color: $textColor;
+  }
+}
+

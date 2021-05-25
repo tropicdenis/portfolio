@@ -1,8 +1,8 @@
 import React from "react"
-import style from './Skills.module.css';
-import styleContainer from '../common/styles/Container.module.css'
+import style from './Skills.module.scss';
+import styleContainer from '../common/styles/Container.module.scss'
 import Skill from "./skill/Skill";
-import reactLogo from './react.svg'
+import reactLogo from './react.png'
 import typescriptLogo from './typescript.png'
 import reduxLogo from './redux.png'
 import Title from "../common/components/title/Title";
@@ -11,7 +11,7 @@ function Skills() {
     return (
         <div id={'skills'} className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Title text={"Skills"}/>
+                <Title className={style.title} text={"Skills"}/>
 
                 <div className={style.skills}>
                     <Skill title={"React"}

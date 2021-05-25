@@ -1,6 +1,6 @@
 import React from "react"
-import style from './Main.module.css';
-import styleContainer from '../common/styles/Container.module.css'
+import style from './Main.module.scss';
+import styleContainer from '../common/styles/Container.module.scss'
 import profilePhoto from './myAvatar.jpg'
 
 
@@ -11,7 +11,7 @@ function Main() {
                 <div className={style.text}>
                     <span>Hi, There</span>
                     <h1>I am Denis Trapeshchonok</h1>
-                    <p>Frontend Developer</p>
+                    <p>Front-end Developer</p>
                 </div>
                 <div className={style.photo}>
                     <img src={profilePhoto}/>
